@@ -4,6 +4,8 @@
 
 Specification only. Do not implement until explicitly requested. Read [PRD](../PRD.md), [product principles](../PRODUCT_PRINCIPLES.md), [architecture](../ARCHITECTURE.md) and [roadmap](../ROADMAP.md) before implementation.
 
+Read [design guidance](../DESIGN.md) before UI implementation. Its future recording/workspace examples do not expand this feature's notebook-only scope.
+
 ## Goal
 
 Provide an idea-first desktop notebook shell in which a musician can create, organise, find and reopen song-idea entries. Establish a useful foundation without requiring musical content, theory knowledge or a production timeline.

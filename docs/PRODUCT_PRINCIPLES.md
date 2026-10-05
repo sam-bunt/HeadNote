@@ -8,6 +8,8 @@ Every musical idea originates with the musician. Headnote helps capture, underst
 
 A voice memo alone can be a project. A text-only notebook entry is also valid. Notes, instrumentation and arrangement emerge when the musician chooses, without mandatory theory or song-structure fields.
 
+A project may accumulate zero, one or many recordings: distinct parts, variations, alternative takes and later real performances. A source need not have an instrument assignment. Project, instrument and track relationships must not impose one-recording limits.
+
 Headnote starts with an idea rather than an empty production timeline. Projects can remain simple; multitrack, recording, mixing, effects and MIDI workflows become available as ideas develop into a songwriting workstation.
 
 ## Ear first, theory second
@@ -23,6 +25,8 @@ Live computer-keyboard percussion, note input, user-assigned chord/sample trigge
 ## Preserve the original source permanently
 
 Original humming, singing, beatboxing and instrument recordings remain immutable source assets. Derived data retains provenance through transcription, edited transcription, instrument interpretation and arrangement. No editing workflow overwrites a source recording.
+
+Preserve each source independently. Every derived result identifies the specific source recording from which it came; a project-wide source reference is insufficient when the project contains multiple recordings.
 
 The musician can listen to the original again, compare it with a transcription, re-transcribe it, reject derived edits and restore earlier versions. Pitch and timing assistance remains controllable and reversible.
 

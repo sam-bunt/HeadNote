@@ -20,6 +20,10 @@ Primary users are songwriters and musicians with varying levels of theory knowle
 
 A project may begin as only a voice memo. The musician can later transcribe it, edit notes and timing, select an instrument, add their own parts and organise tracks into a complete song. A project need not contain notes, tracks or notation to be valid. Each stage should remain useful independently.
 
+A project is a container for a musical idea with zero, one or many source recordings. It may collect a hummed guitar part and variations, bass and string ideas, beatboxed drums, vocals, alternative takes and later real-instrument recordings. Each source is independently preserved and need not have an assigned instrument. Do not assume one recording per project or instrument, or one source per track. Derived data retains provenance to the specific recording from which it came.
+
+Conceptually: project → many source recordings → zero or more transcriptions per source → edited musical interpretations → tracks/arrangement. This describes future relationships, not a recording schema or Feature 001 functionality.
+
 The intended journey is: idea in head → capture → preserve original → transcribe/understand → edit/experiment → choose instruments → arrange into tracks → translate into playable forms → practise → play/record in real life.
 
 Interaction should support listening, comparing and experimenting before requiring theory terminology. A project begins with an idea rather than an empty production timeline. Projects may stay simple; track, recording, effects, mixing and MIDI workflows appear as the idea develops. An advanced project may become a lightweight songwriting workstation without forcing that complexity at the start.
@@ -68,7 +72,7 @@ Feature 001 establishes only the desktop application shell and local notebook: c
 ## Success criteria
 
 - A musician can capture a named idea as text, find it and reopen it after restarting.
-- Subsequent features can attach a voice memo to a project without requiring musical notation.
+- Subsequent features can accumulate multiple source recordings in a project without requiring notation or an instrument assignment.
 - Transcription and assistance retain a traceable relationship to the musician's input.
 - A project can grow into multiple musician-created tracks without replacing its original source material.
 - Each feature meets its acceptance criteria and passes appropriate tests before the next feature begins.

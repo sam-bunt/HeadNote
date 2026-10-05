@@ -41,6 +41,10 @@ User-directed chord exploration and performance-input events enter the same cano
 
 A project can contain only notebook metadata initially and only a voice memo once recording is available. Musical tracks and arrangements are optional additions.
 
+A project is a musical-idea container with zero, one or many independently preserved source recordings. Sources may be parts, variations, alternative takes or later real-instrument performances, with no instrument assignment required at capture. Do not assume one recording per project, one recording per instrument or one source per track.
+
+Conceptually, a project contains many sources; each source may have zero or more transcriptions, followed by edited interpretations and associations with parts, instruments, tracks or arrangement. Derived data must retain provenance to the specific source recording. Define detailed relationships and recording storage schemas in future audio specifications, not now.
+
 SQLite stores searchable metadata. Future audio and other assets should be managed as project-associated files, with stable identifiers and references; specify the storage layout, recovery and portability before implementing asset features. Do not assume audio belongs in SQLite.
 
 Specify source retention, derived-version history and provenance persistence when assets and musical editing are introduced. Replacing a guide track or accepting an edit must preserve the source and its relationships. Do not introduce this future storage machinery in Feature 001.

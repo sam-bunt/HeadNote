@@ -12,9 +12,13 @@ Desktop shell, local project library, titles, notes, user-defined tags, metadata
 
 JUCE audio/device foundation, voice memo recording and playback, permanently preserved immutable source assets and projects that contain only a voice memo.
 
+Allow each project to accumulate multiple independently preserved recordings, including variations and alternative takes, without requiring instrument assignments. Avoid one-source-per-project, instrument or track assumptions; specify detailed relationships only when audio features are requested.
+
 ## 3. Transcription
 
 Voice/humming to musical-note transcription behind a replaceable abstraction. Begin with Python experimentation, retain source provenance and expose results for user review and comparison with the original. Allow re-transcription without overwriting sources.
+
+Support zero or more transcriptions per source recording, with each derived interpretation retaining provenance to its specific source.
 
 ## 4. Musical editing and instrument playback
 
